@@ -1,0 +1,45 @@
+body 
+{ 
+ background-image: url(Preto.png) ;
+ background-repeat: no-repeat;
+ background-position: right center;
+ background-size: cover;
+ font-family: 'Oswald', sans-serif;
+ color: rgb(241, 241, 241);
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+ 
+ 
+
+
+
+ .foto-principal 
+{
+    width: 90px;
+    border-radius: 40%;
+    margin: 30px; 
+    padding: 05px;
+    border:3px solid #f8f4f4;
+   box-shadow: 0px 0px 10px #ffffff;
+}
+h1{
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+}
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+.caixa {
+    background-color: black;
+     
+}

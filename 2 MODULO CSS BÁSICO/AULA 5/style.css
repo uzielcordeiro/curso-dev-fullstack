@@ -1,0 +1,29 @@
+body 
+{ 
+ background-image: url(Preto.png) ;
+ background-repeat: no-repeat;
+ background-position: right center;
+ background-size: cover;
+}
+
+ 
+ 
+p 
+{
+ color: rgb(241, 241, 241);
+
+}
+ .foto-principal 
+{
+    width: 90px;
+    border-radius: 40%;
+   /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;aqui e mesma coisa do (margin) sentido horario*/
+    margin: 30px 30px 30px 30px; /*sentido horario*/
+    border:3px solid #ffffff/
+    
+    
+     
+
+}

@@ -1,0 +1,14 @@
+body { 
+ background-image:url(colorido.png) ;
+ /*background-image:url(colorido.png) ;aqui serve para inserir a url,fonte da imagem*/
+ background-repeat: no-repeat;
+ /*background-position: 100% 100%; aqui e o tamanho dele*/  
+ background-position: right center;
+ background-size: cover;
+ 
+ 
+p {
+    color: rgb(241, 241, 241);
+
+}
+

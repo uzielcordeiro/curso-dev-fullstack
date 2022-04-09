@@ -1,0 +1,31 @@
+body 
+{ 
+ background-image: url(Preto.png) ;
+ /*background-image:url(colorido.png) ;aqui serve para inserir a url,fonte da imagem*/
+ background-repeat: no-repeat;
+ /*background-position: 100% 100%; aqui e o tamanho dele*/  
+ background-position: right center;
+ background-size: cover;
+}
+
+ 
+ 
+p 
+{
+ color: rgb(241, 241, 241);
+
+}
+ .foto-principal 
+{
+    width: 90px;
+    /*(border-radius: 100% 0 100% 0;) tambem pode ser mudado todos os cantos independentes no sentido horario.*/
+    border-radius: 40%;
+    border:3px solid #ffffff/*shorthand, e o nome dessa propriedade*/ 
+    
+     /*
+    border-width:  5px;
+    border-style: solid;
+    border-color: black;
+    */
+
+}
