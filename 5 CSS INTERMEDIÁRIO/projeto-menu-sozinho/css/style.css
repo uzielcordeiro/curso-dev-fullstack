@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'arial' , sans-serif;
+    background-color: rgb(212, 202, 202);
+ 
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 20px black;
+    padding: 0 20px;
+}
+
+.logo{
+    letter-spacing: -3px;
+    
+    text-transform: lowercase;
+}
+
+.logo span:first-child{
+    color: blueviolet;
+}
+.logo span:last-child{
+    font-size: 17px;
+    letter-spacing: normal;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.menu li:hover{
+    background: blueviolet;
+}
+
+.menu li:hover > .submenu , .submenu li:hover > .submenu{
+    display: block;
+    list-style: none;
+
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    background: blueviolet;
+    min-width: 110%;
+}
+.submenu li:hover{
+    background: rgb(49, 30, 66);
+}
+.submenu li{
+    position: relative;
+}
+.submenu li .submenu{
+    top: 0;
+    left: 100%;
+}
