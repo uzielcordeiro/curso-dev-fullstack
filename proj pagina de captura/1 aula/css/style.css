@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/background.png);
+    
+    color: white;
+
+    
+}
+.container{
+    width: 628px;
+   margin: 100px auto;
+
+}
+.logo{
+    margin-left: 36%;
+    margin-bottom: 10px;
+   
+
+}
+h1 , h2 , h3{
+    text-align: center;
+}
+.nome{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.email{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button{
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 17px;
+}
+.button:hover{
+    background: rgb(90, 22, 153);
+}
