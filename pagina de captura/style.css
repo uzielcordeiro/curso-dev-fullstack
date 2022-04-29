@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-image: url(background.png);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    padding: 48px;
+
+    
+    
+}
+.logo{
+    text-align: center;
+    align-items: center;
+}
+h1, h2, h3{
+    text-align: center;
+    font-size: 50px;
+ 
+}
+h3{
+    font-size: 30px;
+}
+.nome, .email{
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.button{
+    width: 60%;
+    padding: 20px ;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.button:hover{
+    background: rgb(93, 26, 156);
+}
